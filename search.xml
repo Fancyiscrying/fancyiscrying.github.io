@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[博客搭建第一天]]></title>
+    <url>%2F2018%2F07%2F26%2F%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%B8%80%E5%A4%A9%2F</url>
+    <content type="text"><![CDATA[前言最近在工作的时候，搭建Vue环境，发现了一个人月小水长的博客，特别喜欢这种风格，内心已经燃起了熊熊之火，于是一发不可收拾的开始搭建我的blog，一开始fork别人的博客，修改了很多自己的内容，然而发现有骨架没灵魂不是我的选择，于是开始了自己的搭建. 搭建的准备工作 npm环境 hexo VS code git 搭建的问题汇总 文字不是中文，需要修改站点_config.yml 文件中的language变量 主题可以有多种选择，当前主题为next，需要修改站点的_config.yml 的theme]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F07%2F26%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
