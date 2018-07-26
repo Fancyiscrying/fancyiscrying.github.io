@@ -3,10 +3,13 @@
   <entry>
     <title><![CDATA[博客搭建第二天]]></title>
     <url>%2F2018%2F07%2F26%2F%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E5%A4%A9%2F</url>
-    <content type="text"><![CDATA[前言 本次博客搭建做了很多针对性的修改，比如添加看板娘，添加Valine评论，添加DaoVoice等插件 已经优化点 添加看板娘 添加Valine评论 添加DaoVoice聊天 添加左侧栏头像旋转效果 添加右上角fork me github 添加字数统计功能 bug问题需要修复点 页面有个undefined显示，需要修改 需要添加音乐按钮 优化动画效果，快速加载静态也i按]]></content>
+    <content type="text"><![CDATA[前言 本次博客搭建做了很多针对性的修改，比如添加看板娘，添加Valine评论，添加DaoVoice等插件 已经优化点 添加看板娘 添加Valine评论 添加DaoVoice聊天 添加左侧栏头像旋转效果 添加右上角fork me github 添加字数统计功能 bug问题需要修复点 页面有个undefined显示，需要修改 需要添加音乐按钮 优化动画效果，快速加载静态js，css资源]]></content>
       <categories>
         <category>博客搭建</category>
       </categories>
+      <tags>
+        <tag>博客，日常</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[博客搭建第一天]]></title>
