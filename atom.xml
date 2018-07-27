@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-26T09:09:04.118Z</updated>
+  <updated>2018-07-27T01:47:09.792Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客搭建第三天</title>
+    <link href="http://yoursite.com/2018/07/27/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%B8%89%E5%A4%A9/"/>
+    <id>http://yoursite.com/2018/07/27/博客搭建第三天/</id>
+    <published>2018-07-27T01:15:11.000Z</published>
+    <updated>2018-07-27T01:47:09.792Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p> 今天发现我的看板娘挂了，萌萌哒的看板娘没了，这可不能忍，必须让她活起来</p><h2 id="bug修复"><a href="#bug修复" class="headerlink" title="bug修复"></a>bug修复</h2><ol><li>看板娘没了，需查看。。</li><li>优化界面加载慢的问题</li><li>优化博客背景界面</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt; 今天发现我的看板娘挂了，萌萌哒的看板娘没了，这可不能忍，必须让她活起来&lt;/p&gt;
+&lt;h2 id=&quot;bug修复&quot;&gt;&lt;a href=&quot;#bug修
+      
+    
+    </summary>
+    
+      <category term="博客" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="日常" scheme="http://yoursite.com/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>博客搭建第二天</title>
@@ -48,9 +74,9 @@
     <link href="http://yoursite.com/2018/07/26/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
     <id>http://yoursite.com/2018/07/26/博客搭建第一天/</id>
     <published>2018-07-26T08:03:38.000Z</published>
-    <updated>2018-07-26T08:38:54.641Z</updated>
+    <updated>2018-07-26T09:25:29.462Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近在工作的时候，搭建Vue环境，发现了一个人<a href="https://inspurer.github.io/" target="_blank" rel="noopener">月小水长</a>的博客，特别喜欢这种风格，内心已经燃起了熊熊之火，于是一发不可收拾的开始搭建<br>我的blog，一开始fork别人的博客，修改了很多自己的内容，然而发现有骨架没灵魂不是我的选择，于是开始了自己的搭建.</p><h2 id="搭建的准备工作"><a href="#搭建的准备工作" class="headerlink" title="搭建的准备工作"></a>搭建的准备工作</h2><hr><ol><li>npm环境</li><li>hexo</li><li>VS code</li><li>git</li></ol><hr><h2 id="搭建的问题汇总"><a href="#搭建的问题汇总" class="headerlink" title="搭建的问题汇总"></a>搭建的问题汇总</h2><ol><li>文字不是中文，需要修改站点_config.yml 文件中的language变量</li><li>主题可以有多种选择，当前主题为<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">next</a>，需要修改站点的_config.yml 的theme</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近在工作的时候，搭建Vue环境，发现了一个人<a href="https://inspurer.github.io/" target="_blank" rel="noopener">月小水长</a>的博客，特别喜欢这种风格，内心已经燃起了熊熊之火，于是一发不可收拾的开始搭建我的blog，一开始fork别人的博客，修改了很多自己的内容，然而发现有骨架没灵魂不是我的选择，于是开始了自己的搭建.</p><h2 id="搭建的准备工作"><a href="#搭建的准备工作" class="headerlink" title="搭建的准备工作"></a>搭建的准备工作</h2><hr><ol><li>npm环境</li><li>hexo</li><li>VS code</li><li>git</li></ol><hr><h2 id="搭建的问题汇总"><a href="#搭建的问题汇总" class="headerlink" title="搭建的问题汇总"></a>搭建的问题汇总</h2><ol><li>文字不是中文，需要修改站点_config.yml 文件中的language变量</li><li>主题可以有多种选择，当前主题为<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">next</a>，需要修改站点的_config.yml 的theme</li></ol>]]></content>
     
     <summary type="html">
     
@@ -61,6 +87,10 @@
     
     </summary>
     
+      <category term="博客搭建" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="博客，日常" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2%EF%BC%8C%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   

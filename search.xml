@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[博客搭建第三天]]></title>
+    <url>%2F2018%2F07%2F27%2F%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%B8%89%E5%A4%A9%2F</url>
+    <content type="text"><![CDATA[前言 今天发现我的看板娘挂了，萌萌哒的看板娘没了，这可不能忍，必须让她活起来 bug修复 看板娘没了，需查看。。 优化界面加载慢的问题 优化博客背景界面]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[博客搭建第二天]]></title>
     <url>%2F2018%2F07%2F26%2F%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E5%A4%A9%2F</url>
     <content type="text"><![CDATA[前言 本次博客搭建做了很多针对性的修改，比如添加看板娘，添加Valine评论，添加DaoVoice等插件 已经优化点 添加看板娘 添加Valine评论 添加DaoVoice聊天 添加左侧栏头像旋转效果 添加右上角fork me github 添加字数统计功能 bug问题需要修复点 页面有个undefined显示，需要修改 需要添加音乐按钮 优化动画效果，快速加载静态js，css资源]]></content>
@@ -15,5 +26,11 @@
     <title><![CDATA[博客搭建第一天]]></title>
     <url>%2F2018%2F07%2F26%2F%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%B8%80%E5%A4%A9%2F</url>
     <content type="text"><![CDATA[前言最近在工作的时候，搭建Vue环境，发现了一个人月小水长的博客，特别喜欢这种风格，内心已经燃起了熊熊之火，于是一发不可收拾的开始搭建我的blog，一开始fork别人的博客，修改了很多自己的内容，然而发现有骨架没灵魂不是我的选择，于是开始了自己的搭建. 搭建的准备工作 npm环境 hexo VS code git 搭建的问题汇总 文字不是中文，需要修改站点_config.yml 文件中的language变量 主题可以有多种选择，当前主题为next，需要修改站点的_config.yml 的theme]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>博客，日常</tag>
+      </tags>
   </entry>
 </search>
