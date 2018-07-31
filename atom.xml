@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Fany君</title>
+  <title>Fancy君</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-27T01:47:09.792Z</updated>
+  <updated>2018-07-31T02:21:47.151Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2018/7/31 生活日常</title>
+    <link href="http://yoursite.com/2018/07/31/2018-7-31-%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
+    <id>http://yoursite.com/2018/07/31/2018-7-31-生活日常/</id>
+    <published>2018-07-31T01:12:32.000Z</published>
+    <updated>2018-07-31T02:21:47.151Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>  昨天晚上回家的时候，准老婆很不开心，我知道我自己又犯错了。</p><h2 id="感情的路也并不是那么好走"><a href="#感情的路也并不是那么好走" class="headerlink" title="感情的路也并不是那么好走"></a>感情的路也并不是那么好走</h2><p> 我知道小梅梅是刀子嘴，豆腐心，人挺好的，就是控制不了自己的情绪，总是会想很多。<br> 也怪我，确实很多都做的不好，没有多为她考虑考虑，如果很多事都能提前考虑或者说是直接做了，也就不会有那么多的烦心事吧。<br> 事后的认错悔改往往徒劳无用，我也不想每天都有那么多的烦心事一直在心里憋着，人为什么不能开开心心，不去计较太多呢。</p><p> 我也不想让她每天都别那么累，不管是心累还是身体的累，我都挺心疼的，自从来深圳后，身体就没好过，一直这而那的不舒服，我挺愧疚的，但是我总是没有细微的注意到这些点，情绪也一点点的升级。</p><h2 id="细微的生活"><a href="#细微的生活" class="headerlink" title="细微的生活"></a>细微的生活</h2><p>   我之前从未如此的关注生活中的点点滴滴，一点点问题的不重视是会引来巨大矛盾的，想起之前的很多事，很多不放在心上的事往往是最严重的事情，让我不得不在乎生活中的小细节的事情，都说会看女人的脸色的男人才是最体贴的，我就从来是那种不会观察小细节的人，所以才会现在的不知所措</p><h2 id="后来的展望"><a href="#后来的展望" class="headerlink" title="后来的展望"></a>后来的展望</h2><p>如果心与心的距离只是两层皮肤的距离，我想那就是最完美的，我想她每天都开开心心的，能理解她，包容她以及更爱。</p><p>一点点的转变，一点点的体贴起来，多为她想，多为她考虑，那么这就是最完美的生活吧。。。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;  昨天晚上回家的时候，准老婆很不开心，我知道我自己又犯错了。&lt;/p&gt;
+&lt;h2 id=&quot;感情的路也并不是那么好走&quot;&gt;&lt;a href=&quot;#感情
+      
+    
+    </summary>
+    
+      <category term="情感" scheme="http://yoursite.com/categories/%E6%83%85%E6%84%9F/"/>
+    
+    
+      <category term="日常" scheme="http://yoursite.com/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>博客搭建第三天</title>

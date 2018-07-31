@@ -136,7 +136,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="博客搭建第三天">
 <meta property="og:url" content="http://yoursite.com/2018/07/27/博客搭建第三天/index.html">
-<meta property="og:site_name" content="Fany君">
+<meta property="og:site_name" content="Fancy君">
 <meta property="og:description" content="前言 今天发现我的看板娘挂了，萌萌哒的看板娘没了，这可不能忍，必须让她活起来 bug修复 看板娘没了，需查看。。 优化界面加载慢的问题 优化博客背景界面">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2018-07-27T01:47:09.792Z">
@@ -146,7 +146,7 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Fany君" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="Fancy君" type="application/atom+xml" />
 
 
 
@@ -161,7 +161,7 @@
   };
 </script>
 
-  <title>博客搭建第三天 | Fany君</title>
+  <title>博客搭建第三天 | Fancy君</title>
   
 
 
@@ -219,7 +219,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Fany君</span>
+        <span class="site-title">Fancy君</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -378,7 +378,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fany君">
+      <meta itemprop="name" content="Fancy君">
     </span>
 
     
@@ -597,6 +597,10 @@
 
           <div class="post-nav-prev post-nav-item">
             
+              <a href="/2018/07/31/2018-7-31-生活日常/" rel="prev" title="2018/7/31 生活日常">
+                2018/7/31 生活日常 <i class="fa fa-chevron-right"></i>
+              </a>
+            
           </div>
         </div>
       
@@ -672,7 +676,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -689,7 +693,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -830,7 +836,7 @@
 
 
 <div class="theme-info">
-  <span class="post-count">Total Words:383</span>
+  <span class="post-count">Total Words:860</span>
 </div>
 
         
@@ -1389,9 +1395,25 @@
             });
           } else {
             
-              var $element = $(document.getElementById(url));
-              $element.find('.leancloud-visitors-count').text('Counter not initialized! See more at console err msg.');
-              console.error('ATTENTION! LeanCloud counter has security bug, see here how to solve it: https://github.com/theme-next/hexo-leancloud-counter-security. \n But you also can use LeanCloud without security, by set \'security\' option to \'false\'.');
+              var newcounter = new Counter();
+              /* Set ACL */
+              var acl = new AV.ACL();
+              acl.setPublicReadAccess(true);
+              acl.setPublicWriteAccess(true);
+              newcounter.setACL(acl);
+              /* End Set ACL */
+              newcounter.set("title", title);
+              newcounter.set("url", url);
+              newcounter.set("time", 1);
+              newcounter.save(null, {
+                success: function(newcounter) {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                },
+                error: function(newcounter, error) {
+                  console.log('Failed to create');
+                }
+              });
             
           }
         },

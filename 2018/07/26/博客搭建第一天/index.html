@@ -136,7 +136,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="博客搭建第一天">
 <meta property="og:url" content="http://yoursite.com/2018/07/26/博客搭建第一天/index.html">
-<meta property="og:site_name" content="Fany君">
+<meta property="og:site_name" content="Fancy君">
 <meta property="og:description" content="前言最近在工作的时候，搭建Vue环境，发现了一个人月小水长的博客，特别喜欢这种风格，内心已经燃起了熊熊之火，于是一发不可收拾的开始搭建我的blog，一开始fork别人的博客，修改了很多自己的内容，然而发现有骨架没灵魂不是我的选择，于是开始了自己的搭建. 搭建的准备工作  npm环境 hexo VS code git   搭建的问题汇总 文字不是中文，需要修改站点_config.yml 文件中的la">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2018-07-26T09:25:29.462Z">
@@ -146,7 +146,7 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Fany君" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="Fancy君" type="application/atom+xml" />
 
 
 
@@ -161,7 +161,7 @@
   };
 </script>
 
-  <title>博客搭建第一天 | Fany君</title>
+  <title>博客搭建第一天 | Fancy君</title>
   
 
 
@@ -219,7 +219,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Fany君</span>
+        <span class="site-title">Fancy君</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -378,7 +378,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fany君">
+      <meta itemprop="name" content="Fancy君">
     </span>
 
     
@@ -679,7 +679,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -696,7 +696,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -837,7 +839,7 @@
 
 
 <div class="theme-info">
-  <span class="post-count">Total Words:383</span>
+  <span class="post-count">Total Words:860</span>
 </div>
 
         
@@ -1396,9 +1398,25 @@
             });
           } else {
             
-              var $element = $(document.getElementById(url));
-              $element.find('.leancloud-visitors-count').text('Counter not initialized! See more at console err msg.');
-              console.error('ATTENTION! LeanCloud counter has security bug, see here how to solve it: https://github.com/theme-next/hexo-leancloud-counter-security. \n But you also can use LeanCloud without security, by set \'security\' option to \'false\'.');
+              var newcounter = new Counter();
+              /* Set ACL */
+              var acl = new AV.ACL();
+              acl.setPublicReadAccess(true);
+              acl.setPublicWriteAccess(true);
+              newcounter.setACL(acl);
+              /* End Set ACL */
+              newcounter.set("title", title);
+              newcounter.set("url", url);
+              newcounter.set("time", 1);
+              newcounter.save(null, {
+                success: function(newcounter) {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                },
+                error: function(newcounter, error) {
+                  console.log('Failed to create');
+                }
+              });
             
           }
         },

@@ -134,18 +134,18 @@
   <meta name="description" content="渴望随性，浪荡不羁，为所欲为...">
 <meta name="keywords" content="Fancy,git,Spring Boot,Spring MVC,Spring Cloud ,Jenkins">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Fany君">
+<meta property="og:title" content="Fancy君">
 <meta property="og:url" content="http://yoursite.com/archives/index.html">
-<meta property="og:site_name" content="Fany君">
+<meta property="og:site_name" content="Fancy君">
 <meta property="og:description" content="渴望随性，浪荡不羁，为所欲为...">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Fany君">
+<meta name="twitter:title" content="Fancy君">
 <meta name="twitter:description" content="渴望随性，浪荡不羁，为所欲为...">
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Fany君" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="Fancy君" type="application/atom+xml" />
 
 
 
@@ -160,7 +160,7 @@
   };
 </script>
 
-  <title>归档 | Fany君</title>
+  <title>归档 | Fancy君</title>
   
 
 
@@ -218,7 +218,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Fany君</span>
+        <span class="site-title">Fancy君</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -391,7 +391,7 @@
         
           
         
-        嗯..! 目前共计 3 篇日志。 继续努力。
+        嗯..! 目前共计 4 篇日志。 继续努力。
       </span>
       
 
@@ -406,6 +406,43 @@
           <div class="collection-title">
             <h1 class="archive-year" id="archive-year-2018">2018</h1>
           </div>
+        
+        
+
+        
+
+  <article class="post post-type-categories" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2018/07/31/2018-7-31-生活日常/" itemprop="url">
+              
+                <span itemprop="name">2018/7/31 生活日常</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-07-31T09:12:32+08:00"
+              content="2018-07-31" >
+          07-31
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
         
         
 
@@ -565,7 +602,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -582,7 +619,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -707,7 +746,7 @@
 
 
 <div class="theme-info">
-  <span class="post-count">Total Words:383</span>
+  <span class="post-count">Total Words:860</span>
 </div>
 
         
@@ -1262,9 +1301,25 @@
             });
           } else {
             
-              var $element = $(document.getElementById(url));
-              $element.find('.leancloud-visitors-count').text('Counter not initialized! See more at console err msg.');
-              console.error('ATTENTION! LeanCloud counter has security bug, see here how to solve it: https://github.com/theme-next/hexo-leancloud-counter-security. \n But you also can use LeanCloud without security, by set \'security\' option to \'false\'.');
+              var newcounter = new Counter();
+              /* Set ACL */
+              var acl = new AV.ACL();
+              acl.setPublicReadAccess(true);
+              acl.setPublicWriteAccess(true);
+              newcounter.setACL(acl);
+              /* End Set ACL */
+              newcounter.set("title", title);
+              newcounter.set("url", url);
+              newcounter.set("time", 1);
+              newcounter.save(null, {
+                success: function(newcounter) {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                },
+                error: function(newcounter, error) {
+                  console.log('Failed to create');
+                }
+              });
             
           }
         },
