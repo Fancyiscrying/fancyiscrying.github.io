@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[博客搭建第五天]]></title>
+    <url>%2F2018%2F08%2F06%2F%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%94%E5%A4%A9%2F</url>
+    <content type="text"><![CDATA[前言 想给博客添加一个播放器，于是百度了一下就有了思路 简介 APlayer是一款嵌入页面的音乐播放器。 步骤一 访问Aplayer的github源码，下载源码并解压 步骤二 安装npm包 npm install aplayer –save 步骤三 将第一步骤解压后的dist文件夹拷贝到你博客themes/next/source下 步骤四 在dist文件夹新增music.js，并添加如下代码 123456789 const ap = new APlayer(&#123; container: document.getElementById(&apos;aplayer&apos;), audio: [&#123; name: &apos;name&apos;, artist: &apos;artist&apos;, url: &apos;url.mp3&apos;, cover: &apos;cover.jpg&apos; &#125;]&#125;); name:歌曲名称artist:唱歌的人url:音乐的地址cover：音乐的封面 步骤5在themes/next/layout/_layout.swig中的body文件里添加如下代码块1234&lt;link rel=&quot;stylesheet&quot; href=&quot;/dist/APlayer.min.css&quot;&gt;&lt;div id=&quot;aplayer&quot;&gt;&lt;/div&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/music.js&quot;&gt;&lt;/script&gt; 结束开始你的音乐之旅吧！ 本文参考 https://asdfv1929.github.io/2018/05/26/next-add-music/]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>博客，日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[2018-8-6生活日常]]></title>
     <url>%2F2018%2F08%2F06%2F2018-8-6-%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8%2F</url>
     <content type="text"><![CDATA[前言 最近倒霉的事很多来着，感觉今年真的事祸不单行 丢了电动车7月16号，五和D出口，下班搭了苗姐同事的车回到了坂田，走到五和的时候，发现电动车不见了，立马报了警，警察约五分钟到达现在，简单的汇报了情况，居然第一件事去做笔录，简直了，打电话给了小梅梅，小梅梅立马下了班，过来了，心里还是很欣慰的，我以为车上装有GPS，应该可以很快的找到我的车，然而后来让我实在是想多了，骑走我车的人很快的找到了GPS，并丢弃了，找不到车，抓不到人，简直了，警察真的是吃干饭的，一点作用都没有。 电脑被雷打坏了也是7月，记不起来哪天了，回家的时候发现电脑开不了机了，拆机检查了很久，卸了显卡，卸了内存，发现都没什么问题，然后我觉得应该就是电源的问题了，幸好我找到了京东售后，将产品寄了回去，虽然电源好几年了，但是能免费维修那也是好的，电源修好了，然后又发现怎么都连不上网，换了各种驱动还是不行，我就断定，主板上的网卡估计也坏了，这先来损失的真的是很头疼 公路自行车的打气筒被偷了，电源电灯被下了8月出头，骑自行车去找老婆，中途发现一向在自行车上的探照灯以及打气筒不见了，感叹这个社会真的是太多的坏人了，这他妈都要偷，简直是智障一样，要是被我逮住，得打个半死，再赔偿，人心怎么这么坏呢，还是我把这个世界想的太美丽了，小梅梅老是告诉我，不要把人想的那么好，现在我也认识了这个社会阴暗的一面，每个人都是有种病态的，你控制不了别人的思想，它所做的事，你根本没办法预料到，所以收起你的无知以及可怜的大同社会的思想，好好面对这个有点现实的社会吧 皮肤脱皮去海边玩，一定要注意防晒，不然像我这样，现在脱皮，简直跟闹着玩似的，很尴尬，而且还换花很多不该花的钱，买了一堆没用的药，去海边，中午的沙滩特别的烫，根本就下不了脚，上回去了，差点成了烤猪蹄，现在想想真的是很好笑来着，忍不住笑出来声，什么事情都要考虑好了再去做，不要想想就不去行动。]]></content>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-06T03:48:02.670Z</updated>
+  <updated>2018-08-06T08:49:15.273Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客搭建第五天</title>
+    <link href="http://yoursite.com/2018/08/06/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%94%E5%A4%A9/"/>
+    <id>http://yoursite.com/2018/08/06/博客搭建第五天/</id>
+    <published>2018-08-06T08:17:45.000Z</published>
+    <updated>2018-08-06T08:49:15.273Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>  想给博客添加一个播放器，于是百度了一下就有了思路</p><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>  <a href="https://aplayer.js.org/#/zh-Hans/" target="_blank" rel="noopener">APlayer</a>是一款嵌入页面的音乐播放器。</p><h3 id="步骤一"><a href="#步骤一" class="headerlink" title="步骤一"></a>步骤一</h3><p>  访问<a href="https://github.com/MoePlayer/APlayer" target="_blank" rel="noopener">Aplayer</a>的github源码，下载源码并解压</p><h3 id="步骤二"><a href="#步骤二" class="headerlink" title="步骤二"></a>步骤二</h3><p>  安装npm包 npm install aplayer –save</p><h3 id="步骤三"><a href="#步骤三" class="headerlink" title="步骤三"></a>步骤三</h3><p>  将第一步骤解压后的dist文件夹拷贝到你博客themes/next/source下</p><h3 id="步骤四"><a href="#步骤四" class="headerlink" title="步骤四"></a>步骤四</h3><p>   在dist文件夹新增music.js，并添加如下代码<br>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">   const ap = new APlayer(&#123;</span><br><span class="line">    container: document.getElementById(&apos;aplayer&apos;),</span><br><span class="line">    audio: [&#123;</span><br><span class="line">        name: &apos;name&apos;,</span><br><span class="line">        artist: &apos;artist&apos;,</span><br><span class="line">        url: &apos;url.mp3&apos;,</span><br><span class="line">        cover: &apos;cover.jpg&apos;</span><br><span class="line">    &#125;]</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p><p>name:歌曲名称<br>artist:唱歌的人<br>url:音乐的地址<br>cover：音乐的封面</p><h3 id="步骤5"><a href="#步骤5" class="headerlink" title="步骤5"></a>步骤5</h3><p>在themes/next/layout/_layout.swig中的body文件里添加如下代码块<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;/dist/APlayer.min.css&quot;&gt;</span><br><span class="line">&lt;div id=&quot;aplayer&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/music.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure></p><h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>开始你的音乐之旅吧！</p><p>本文参考 <a href="https://asdfv1929.github.io/2018/05/26/next-add-music/" target="_blank" rel="noopener">https://asdfv1929.github.io/2018/05/26/next-add-music/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;  想给博客添加一个播放器，于是百度了一下就有了思路&lt;/p&gt;
+&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;header
+      
+    
+    </summary>
+    
+      <category term="博客搭建" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="博客，日常" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2%EF%BC%8C%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>2018-8-6生活日常</title>
