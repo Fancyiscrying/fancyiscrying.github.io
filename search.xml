@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[2018-8-7-生活日常]]></title>
+    <url>%2F2018%2F08%2F07%2F2018-8-7-%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8%2F</url>
+    <content type="text"><![CDATA[前言忧愁自己的身体健康，于是乎开始了漫长的减肥之路 目标体重120斤距离好漫长啊/(ㄒoㄒ)/~~ 目前已经做到 少吃零食 中午简餐 晚上少吃 目前没做到 提早睡觉 少吃甜食 多运动 结束快点瘦下来。健康快乐每一天！]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[博客搭建第五天]]></title>
     <url>%2F2018%2F08%2F06%2F%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%94%E5%A4%A9%2F</url>
     <content type="text"><![CDATA[前言 想给博客添加一个播放器，于是百度了一下就有了思路 简介 APlayer是一款嵌入页面的音乐播放器。 步骤一 访问Aplayer的github源码，下载源码并解压 步骤二 安装npm包 npm install aplayer –save 步骤三 将第一步骤解压后的dist文件夹拷贝到你博客themes/next/source下 步骤四 在dist文件夹新增music.js，并添加如下代码 123456789 const ap = new APlayer(&#123; container: document.getElementById(&apos;aplayer&apos;), audio: [&#123; name: &apos;name&apos;, artist: &apos;artist&apos;, url: &apos;url.mp3&apos;, cover: &apos;cover.jpg&apos; &#125;]&#125;); name:歌曲名称artist:唱歌的人url:音乐的地址cover：音乐的封面 步骤5在themes/next/layout/_layout.swig中的body文件里添加如下代码块1234&lt;link rel=&quot;stylesheet&quot; href=&quot;/dist/APlayer.min.css&quot;&gt;&lt;div id=&quot;aplayer&quot;&gt;&lt;/div&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/music.js&quot;&gt;&lt;/script&gt; 结束开始你的音乐之旅吧！ 本文参考 https://asdfv1929.github.io/2018/05/26/next-add-music/]]></content>
