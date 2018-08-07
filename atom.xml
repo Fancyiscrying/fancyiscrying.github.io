@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-07T07:01:35.158Z</updated>
+  <updated>2018-08-07T07:18:05.043Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,14 @@
     <link href="http://yoursite.com/2018/08/07/2018-8-7-%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
     <id>http://yoursite.com/2018/08/07/2018-8-7-生活日常/</id>
     <published>2018-08-07T06:50:23.000Z</published>
-    <updated>2018-08-07T07:01:35.158Z</updated>
+    <updated>2018-08-07T07:18:05.043Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>忧愁自己的身体健康，于是乎开始了漫长的减肥之路</p><h2 id="目标体重120斤"><a href="#目标体重120斤" class="headerlink" title="目标体重120斤"></a>目标体重120斤</h2><p>距离好漫长啊/(ㄒoㄒ)/~~</p><h3 id="目前已经做到"><a href="#目前已经做到" class="headerlink" title="目前已经做到"></a>目前已经做到</h3><ul><li style="list-style: none"><input type="checkbox" checked> 少吃零食</li><li style="list-style: none"><input type="checkbox" checked> 中午简餐</li><li style="list-style: none"><input type="checkbox" checked> 晚上少吃</li></ul><h3 id="目前没做到"><a href="#目前没做到" class="headerlink" title="目前没做到"></a>目前没做到</h3><ul><li style="list-style: none"><input type="checkbox"> 提早睡觉</li><li style="list-style: none"><input type="checkbox"> 少吃甜食</li><li style="list-style: none"><input type="checkbox"> 多运动</li></ul><h1 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h1><p><strong>快点瘦下来。健康快乐每一天！</strong></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>忧愁自己的身体健康，于是乎开始了漫长的减肥之路</p><h2 id="目标体重120斤"><a href="#目标体重120斤" class="headerlink" title="目标体重120斤"></a>目标体重120斤</h2><p>距离好漫长啊/(ㄒoㄒ)/~~<br><a id="more"></a></p><h3 id="目前已经做到"><a href="#目前已经做到" class="headerlink" title="目前已经做到"></a>目前已经做到</h3><ul><li style="list-style: none"><input type="checkbox" checked> 少吃零食</li><li style="list-style: none"><input type="checkbox" checked> 中午简餐</li><li style="list-style: none"><input type="checkbox" checked> 晚上少吃</li></ul><h3 id="目前没做到"><a href="#目前没做到" class="headerlink" title="目前没做到"></a>目前没做到</h3><ul><li style="list-style: none"><input type="checkbox"> 提早睡觉</li><li style="list-style: none"><input type="checkbox"> 少吃甜食</li><li style="list-style: none"><input type="checkbox"> 多运动</li></ul><h1 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h1><p><strong>快点瘦下来。健康快乐每一天！</strong></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;忧愁自己的身体健康，于是乎开始了漫长的减肥之路&lt;/p&gt;
-&lt;h2 id=&quot;目标体重120斤&quot;&gt;&lt;a href=&quot;#目标体重120斤&quot; clas
-      
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;忧愁自己的身体健康，于是乎开始了漫长的减肥之路&lt;/p&gt;
+&lt;h2 id=&quot;目标体重120斤&quot;&gt;&lt;a href=&quot;#目标体重120斤&quot; class=&quot;headerlink&quot; title=&quot;目标体重120斤&quot;&gt;&lt;/a&gt;目标体重120斤&lt;/h2&gt;&lt;p&gt;距离好漫长啊/(ㄒoㄒ)/~~&lt;br&gt;
     
     </summary>
     
@@ -49,17 +46,15 @@
     <link href="http://yoursite.com/2018/08/06/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%94%E5%A4%A9/"/>
     <id>http://yoursite.com/2018/08/06/博客搭建第五天/</id>
     <published>2018-08-06T08:17:45.000Z</published>
-    <updated>2018-08-06T08:49:15.273Z</updated>
+    <updated>2018-08-07T07:18:46.962Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>  想给博客添加一个播放器，于是百度了一下就有了思路</p><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>  <a href="https://aplayer.js.org/#/zh-Hans/" target="_blank" rel="noopener">APlayer</a>是一款嵌入页面的音乐播放器。</p><h3 id="步骤一"><a href="#步骤一" class="headerlink" title="步骤一"></a>步骤一</h3><p>  访问<a href="https://github.com/MoePlayer/APlayer" target="_blank" rel="noopener">Aplayer</a>的github源码，下载源码并解压</p><h3 id="步骤二"><a href="#步骤二" class="headerlink" title="步骤二"></a>步骤二</h3><p>  安装npm包 npm install aplayer –save</p><h3 id="步骤三"><a href="#步骤三" class="headerlink" title="步骤三"></a>步骤三</h3><p>  将第一步骤解压后的dist文件夹拷贝到你博客themes/next/source下</p><h3 id="步骤四"><a href="#步骤四" class="headerlink" title="步骤四"></a>步骤四</h3><p>   在dist文件夹新增music.js，并添加如下代码<br>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">   const ap = new APlayer(&#123;</span><br><span class="line">    container: document.getElementById(&apos;aplayer&apos;),</span><br><span class="line">    audio: [&#123;</span><br><span class="line">        name: &apos;name&apos;,</span><br><span class="line">        artist: &apos;artist&apos;,</span><br><span class="line">        url: &apos;url.mp3&apos;,</span><br><span class="line">        cover: &apos;cover.jpg&apos;</span><br><span class="line">    &#125;]</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p><p>name:歌曲名称<br>artist:唱歌的人<br>url:音乐的地址<br>cover：音乐的封面</p><h3 id="步骤5"><a href="#步骤5" class="headerlink" title="步骤5"></a>步骤5</h3><p>在themes/next/layout/_layout.swig中的body文件里添加如下代码块<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;/dist/APlayer.min.css&quot;&gt;</span><br><span class="line">&lt;div id=&quot;aplayer&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/music.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure></p><h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>开始你的音乐之旅吧！</p><p>本文参考 <a href="https://asdfv1929.github.io/2018/05/26/next-add-music/" target="_blank" rel="noopener">https://asdfv1929.github.io/2018/05/26/next-add-music/</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>  想给博客添加一个播放器，于是百度了一下就有了思路</p><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>  <a href="https://aplayer.js.org/#/zh-Hans/" target="_blank" rel="noopener">APlayer</a>是一款嵌入页面的音乐播放器。</p><h3 id="步骤一"><a href="#步骤一" class="headerlink" title="步骤一"></a>步骤一</h3><p>  访问<a href="https://github.com/MoePlayer/APlayer" target="_blank" rel="noopener">Aplayer</a>的github源码，下载源码并解压<br>  <a id="more"></a></p><h3 id="步骤二"><a href="#步骤二" class="headerlink" title="步骤二"></a>步骤二</h3><p>  安装npm包 npm install aplayer –save</p><h3 id="步骤三"><a href="#步骤三" class="headerlink" title="步骤三"></a>步骤三</h3><p>  将第一步骤解压后的dist文件夹拷贝到你博客themes/next/source下</p><h3 id="步骤四"><a href="#步骤四" class="headerlink" title="步骤四"></a>步骤四</h3><p>   在dist文件夹新增music.js，并添加如下代码<br>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">   const ap = new APlayer(&#123;</span><br><span class="line">    container: document.getElementById(&apos;aplayer&apos;),</span><br><span class="line">    audio: [&#123;</span><br><span class="line">        name: &apos;name&apos;,</span><br><span class="line">        artist: &apos;artist&apos;,</span><br><span class="line">        url: &apos;url.mp3&apos;,</span><br><span class="line">        cover: &apos;cover.jpg&apos;</span><br><span class="line">    &#125;]</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p><p>name:歌曲名称<br>artist:唱歌的人<br>url:音乐的地址<br>cover：音乐的封面</p><h3 id="步骤5"><a href="#步骤5" class="headerlink" title="步骤5"></a>步骤5</h3><p>在themes/next/layout/_layout.swig中的body文件里添加如下代码块<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;/dist/APlayer.min.css&quot;&gt;</span><br><span class="line">&lt;div id=&quot;aplayer&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/music.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure></p><h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>开始你的音乐之旅吧！</p><p>本文参考 <a href="https://asdfv1929.github.io/2018/05/26/next-add-music/" target="_blank" rel="noopener">https://asdfv1929.github.io/2018/05/26/next-add-music/</a></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;  想给博客添加一个播放器，于是百度了一下就有了思路&lt;/p&gt;
-&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;header
-      
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;  想给博客添加一个播放器，于是百度了一下就有了思路&lt;/p&gt;
+&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;  &lt;a href=&quot;https://aplayer.js.org/#/zh-Hans/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;APlayer&lt;/a&gt;是一款嵌入页面的音乐播放器。&lt;/p&gt;
+&lt;h3 id=&quot;步骤一&quot;&gt;&lt;a href=&quot;#步骤一&quot; class=&quot;headerlink&quot; title=&quot;步骤一&quot;&gt;&lt;/a&gt;步骤一&lt;/h3&gt;&lt;p&gt;  访问&lt;a href=&quot;https://github.com/MoePlayer/APlayer&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Aplayer&lt;/a&gt;的github源码，下载源码并解压&lt;br&gt;
     
     </summary>
     
@@ -75,17 +70,14 @@
     <link href="http://yoursite.com/2018/08/06/2018-8-6-%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
     <id>http://yoursite.com/2018/08/06/2018-8-6-生活日常/</id>
     <published>2018-08-06T02:54:44.000Z</published>
-    <updated>2018-08-06T03:48:02.670Z</updated>
+    <updated>2018-08-07T07:17:56.663Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>  最近倒霉的事很多来着，感觉今年真的事祸不单行</p><h2 id="丢了电动车"><a href="#丢了电动车" class="headerlink" title="丢了电动车"></a>丢了电动车</h2><p>7月16号，五和D出口，下班搭了苗姐同事的车回到了坂田，走到五和的时候，发现电动车不见了，立马报了警，警察约五分钟到达现在，简单的汇报了情况，居然第一件事去做笔录，简直了，打电话给了小梅梅，小梅梅立马下了班，过来了，心里还是很欣慰的，我以为车上装有GPS，应该可以很快的找到我的车，然而后来让我实在是想多了，骑走我车的人很快的找到了GPS，并丢弃了，找不到车，抓不到人，简直了，警察真的是吃干饭的，一点作用都没有。</p><hr><h2 id="电脑被雷打坏了"><a href="#电脑被雷打坏了" class="headerlink" title="电脑被雷打坏了"></a>电脑被雷打坏了</h2><p>也是7月，记不起来哪天了，回家的时候发现电脑开不了机了，拆机检查了很久，卸了显卡，卸了内存，发现都没什么问题，然后我觉得应该就是电源的问题了，幸好我找到了京东售后，将产品寄了回去，虽然电源好几年了，但是能免费维修那也是好的，电源修好了，然后又发现怎么都连不上网，换了各种驱动还是不行，我就断定，主板上的网卡估计也坏了，这先来损失的真的是很头疼</p><hr><h2 id="公路自行车的打气筒被偷了，电源电灯被下了"><a href="#公路自行车的打气筒被偷了，电源电灯被下了" class="headerlink" title="公路自行车的打气筒被偷了，电源电灯被下了"></a>公路自行车的打气筒被偷了，电源电灯被下了</h2><p>8月出头，骑自行车去找老婆，中途发现一向在自行车上的探照灯以及打气筒不见了，感叹这个社会真的是太多的坏人了，这他妈都要偷，简直是智障一样，要是被我逮住，得打个半死，再赔偿，人心怎么这么坏呢，还是我把这个世界想的太美丽了，小梅梅老是告诉我，不要把人想的那么好，现在我也认识了这个社会阴暗的一面，每个人都是有种病态的，你控制不了别人的思想，它所做的事，你根本没办法预料到，所以收起你的无知以及可怜的大同社会的思想，好好面对这个有点现实的社会吧</p><hr><h3 id="皮肤脱皮"><a href="#皮肤脱皮" class="headerlink" title="皮肤脱皮"></a>皮肤脱皮</h3><p>去海边玩，一定要注意防晒，不然像我这样，现在脱皮，简直跟闹着玩似的，很尴尬，而且还换花很多不该花的钱，买了一堆没用的药，去海边，中午的沙滩特别的烫，根本就下不了脚，上回去了，差点成了烤猪蹄，现在想想真的是很好笑来着，忍不住笑出来声，什么事情都要考虑好了再去做，不要想想就不去行动。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>  最近倒霉的事很多来着，感觉今年真的事祸不单行</p><h2 id="丢了电动车"><a href="#丢了电动车" class="headerlink" title="丢了电动车"></a>丢了电动车</h2><p>7月16号，五和D出口，下班搭了苗姐同事的车回到了坂田，走到五和的时候，发现电动车不见了，立马报了警，警察约五分钟到达现在，简单的汇报了情况，居然第一件事去做笔录，简直了，打电话给了小梅梅，小梅梅立马下了班，过来了，心里还是很欣慰的，我以为车上装有GPS，应该可以很快的找到我的车，然而后来让我实在是想多了，骑走我车的人很快的找到了GPS，并丢弃了，找不到车，抓不到人，简直了，警察真的是吃干饭的，一点作用都没有。<br><a id="more"></a></p><hr><h2 id="电脑被雷打坏了"><a href="#电脑被雷打坏了" class="headerlink" title="电脑被雷打坏了"></a>电脑被雷打坏了</h2><p>也是7月，记不起来哪天了，回家的时候发现电脑开不了机了，拆机检查了很久，卸了显卡，卸了内存，发现都没什么问题，然后我觉得应该就是电源的问题了，幸好我找到了京东售后，将产品寄了回去，虽然电源好几年了，但是能免费维修那也是好的，电源修好了，然后又发现怎么都连不上网，换了各种驱动还是不行，我就断定，主板上的网卡估计也坏了，这先来损失的真的是很头疼</p><hr><h2 id="公路自行车的打气筒被偷了，电源电灯被下了"><a href="#公路自行车的打气筒被偷了，电源电灯被下了" class="headerlink" title="公路自行车的打气筒被偷了，电源电灯被下了"></a>公路自行车的打气筒被偷了，电源电灯被下了</h2><p>8月出头，骑自行车去找老婆，中途发现一向在自行车上的探照灯以及打气筒不见了，感叹这个社会真的是太多的坏人了，这他妈都要偷，简直是智障一样，要是被我逮住，得打个半死，再赔偿，人心怎么这么坏呢，还是我把这个世界想的太美丽了，小梅梅老是告诉我，不要把人想的那么好，现在我也认识了这个社会阴暗的一面，每个人都是有种病态的，你控制不了别人的思想，它所做的事，你根本没办法预料到，所以收起你的无知以及可怜的大同社会的思想，好好面对这个有点现实的社会吧</p><hr><h3 id="皮肤脱皮"><a href="#皮肤脱皮" class="headerlink" title="皮肤脱皮"></a>皮肤脱皮</h3><p>去海边玩，一定要注意防晒，不然像我这样，现在脱皮，简直跟闹着玩似的，很尴尬，而且还换花很多不该花的钱，买了一堆没用的药，去海边，中午的沙滩特别的烫，根本就下不了脚，上回去了，差点成了烤猪蹄，现在想想真的是很好笑来着，忍不住笑出来声，什么事情都要考虑好了再去做，不要想想就不去行动。</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;  最近倒霉的事很多来着，感觉今年真的事祸不单行&lt;/p&gt;
-&lt;h2 id=&quot;丢了电动车&quot;&gt;&lt;a href=&quot;#丢了电动车&quot; class=&quot;he
-      
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;  最近倒霉的事很多来着，感觉今年真的事祸不单行&lt;/p&gt;
+&lt;h2 id=&quot;丢了电动车&quot;&gt;&lt;a href=&quot;#丢了电动车&quot; class=&quot;headerlink&quot; title=&quot;丢了电动车&quot;&gt;&lt;/a&gt;丢了电动车&lt;/h2&gt;&lt;p&gt;7月16号，五和D出口，下班搭了苗姐同事的车回到了坂田，走到五和的时候，发现电动车不见了，立马报了警，警察约五分钟到达现在，简单的汇报了情况，居然第一件事去做笔录，简直了，打电话给了小梅梅，小梅梅立马下了班，过来了，心里还是很欣慰的，我以为车上装有GPS，应该可以很快的找到我的车，然而后来让我实在是想多了，骑走我车的人很快的找到了GPS，并丢弃了，找不到车，抓不到人，简直了，警察真的是吃干饭的，一点作用都没有。&lt;br&gt;
     
     </summary>
     
@@ -101,17 +93,13 @@
     <link href="http://yoursite.com/2018/07/31/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E5%9B%9B%E5%A4%A9/"/>
     <id>http://yoursite.com/2018/07/31/博客搭建第四天/</id>
     <published>2018-07-31T06:27:17.000Z</published>
-    <updated>2018-07-31T07:42:55.311Z</updated>
+    <updated>2018-08-07T07:18:40.879Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>突然想给自己的博客添加背景音乐，想起之前博主的例子，心里顿时手痒痒的，网易云音乐或者QQ音乐都可以。</p><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol><li>进入网易云音乐</li><li>选择音乐，生成网易云插件</li><li>设置播放器的位置</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>突然想给自己的博客添加背景音乐，想起之前博主的例子，心里顿时手痒痒的，网易云音乐或者QQ音乐都可以。</p><a id="more"></a><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol><li>进入网易云音乐</li><li>选择音乐，生成网易云插件</li><li>设置播放器的位置</li></ol>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;突然想给自己的博客添加背景音乐，想起之前博主的例子，心里顿时手痒痒的，网易云音乐或者QQ音乐都可以。&lt;/p&gt;
-&lt;h2 id=&quot;步骤&quot;&gt;&lt;a 
-      
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;突然想给自己的博客添加背景音乐，想起之前博主的例子，心里顿时手痒痒的，网易云音乐或者QQ音乐都可以。&lt;/p&gt;
     
     </summary>
     
@@ -127,17 +115,15 @@
     <link href="http://yoursite.com/2018/07/31/2018-7-31-%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
     <id>http://yoursite.com/2018/07/31/2018-7-31-生活日常/</id>
     <published>2018-07-31T01:12:32.000Z</published>
-    <updated>2018-07-31T02:21:47.151Z</updated>
+    <updated>2018-08-07T07:17:45.768Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>  昨天晚上回家的时候，准老婆很不开心，我知道我自己又犯错了。</p><h2 id="感情的路也并不是那么好走"><a href="#感情的路也并不是那么好走" class="headerlink" title="感情的路也并不是那么好走"></a>感情的路也并不是那么好走</h2><p> 我知道小梅梅是刀子嘴，豆腐心，人挺好的，就是控制不了自己的情绪，总是会想很多。<br> 也怪我，确实很多都做的不好，没有多为她考虑考虑，如果很多事都能提前考虑或者说是直接做了，也就不会有那么多的烦心事吧。<br> 事后的认错悔改往往徒劳无用，我也不想每天都有那么多的烦心事一直在心里憋着，人为什么不能开开心心，不去计较太多呢。</p><p> 我也不想让她每天都别那么累，不管是心累还是身体的累，我都挺心疼的，自从来深圳后，身体就没好过，一直这而那的不舒服，我挺愧疚的，但是我总是没有细微的注意到这些点，情绪也一点点的升级。</p><h2 id="细微的生活"><a href="#细微的生活" class="headerlink" title="细微的生活"></a>细微的生活</h2><p>   我之前从未如此的关注生活中的点点滴滴，一点点问题的不重视是会引来巨大矛盾的，想起之前的很多事，很多不放在心上的事往往是最严重的事情，让我不得不在乎生活中的小细节的事情，都说会看女人的脸色的男人才是最体贴的，我就从来是那种不会观察小细节的人，所以才会现在的不知所措</p><h2 id="后来的展望"><a href="#后来的展望" class="headerlink" title="后来的展望"></a>后来的展望</h2><p>如果心与心的距离只是两层皮肤的距离，我想那就是最完美的，我想她每天都开开心心的，能理解她，包容她以及更爱。</p><p>一点点的转变，一点点的体贴起来，多为她想，多为她考虑，那么这就是最完美的生活吧。。。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>  昨天晚上回家的时候，准老婆很不开心，我知道我自己又犯错了。</p><h2 id="感情的路也并不是那么好走"><a href="#感情的路也并不是那么好走" class="headerlink" title="感情的路也并不是那么好走"></a>感情的路也并不是那么好走</h2><p> 我知道小梅梅是刀子嘴，豆腐心，人挺好的，就是控制不了自己的情绪，总是会想很多。<br> 也怪我，确实很多都做的不好，没有多为她考虑考虑，如果很多事都能提前考虑或者说是直接做了，也就不会有那么多的烦心事吧。<br> 事后的认错悔改往往徒劳无用，我也不想每天都有那么多的烦心事一直在心里憋着，人为什么不能开开心心，不去计较太多呢。</p><p> 我也不想让她每天都别那么累，不管是心累还是身体的累，我都挺心疼的，自从来深圳后，身体就没好过，一直这而那的不舒服，我挺愧疚的，但是我总是没有细微的注意到这些点，情绪也一点点的升级。<br> <a id="more"></a></p><h2 id="细微的生活"><a href="#细微的生活" class="headerlink" title="细微的生活"></a>细微的生活</h2><p>   我之前从未如此的关注生活中的点点滴滴，一点点问题的不重视是会引来巨大矛盾的，想起之前的很多事，很多不放在心上的事往往是最严重的事情，让我不得不在乎生活中的小细节的事情，都说会看女人的脸色的男人才是最体贴的，我就从来是那种不会观察小细节的人，所以才会现在的不知所措</p><h2 id="后来的展望"><a href="#后来的展望" class="headerlink" title="后来的展望"></a>后来的展望</h2><p>如果心与心的距离只是两层皮肤的距离，我想那就是最完美的，我想她每天都开开心心的，能理解她，包容她以及更爱。</p><p>一点点的转变，一点点的体贴起来，多为她想，多为她考虑，那么这就是最完美的生活吧。。。</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;  昨天晚上回家的时候，准老婆很不开心，我知道我自己又犯错了。&lt;/p&gt;
-&lt;h2 id=&quot;感情的路也并不是那么好走&quot;&gt;&lt;a href=&quot;#感情
-      
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;  昨天晚上回家的时候，准老婆很不开心，我知道我自己又犯错了。&lt;/p&gt;
+&lt;h2 id=&quot;感情的路也并不是那么好走&quot;&gt;&lt;a href=&quot;#感情的路也并不是那么好走&quot; class=&quot;headerlink&quot; title=&quot;感情的路也并不是那么好走&quot;&gt;&lt;/a&gt;感情的路也并不是那么好走&lt;/h2&gt;&lt;p&gt; 我知道小梅梅是刀子嘴，豆腐心，人挺好的，就是控制不了自己的情绪，总是会想很多。&lt;br&gt; 也怪我，确实很多都做的不好，没有多为她考虑考虑，如果很多事都能提前考虑或者说是直接做了，也就不会有那么多的烦心事吧。&lt;br&gt; 事后的认错悔改往往徒劳无用，我也不想每天都有那么多的烦心事一直在心里憋着，人为什么不能开开心心，不去计较太多呢。&lt;/p&gt;
+&lt;p&gt; 我也不想让她每天都别那么累，不管是心累还是身体的累，我都挺心疼的，自从来深圳后，身体就没好过，一直这而那的不舒服，我挺愧疚的，但是我总是没有细微的注意到这些点，情绪也一点点的升级。&lt;br&gt;
     
     </summary>
     
@@ -153,17 +139,13 @@
     <link href="http://yoursite.com/2018/07/27/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%B8%89%E5%A4%A9/"/>
     <id>http://yoursite.com/2018/07/27/博客搭建第三天/</id>
     <published>2018-07-27T01:15:11.000Z</published>
-    <updated>2018-07-27T01:47:09.792Z</updated>
+    <updated>2018-08-07T07:18:50.968Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p> 今天发现我的看板娘挂了，萌萌哒的看板娘没了，这可不能忍，必须让她活起来</p><h2 id="bug修复"><a href="#bug修复" class="headerlink" title="bug修复"></a>bug修复</h2><ol><li>看板娘没了，需查看。。</li><li>优化界面加载慢的问题</li><li>优化博客背景界面</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p> 今天发现我的看板娘挂了，萌萌哒的看板娘没了，这可不能忍，必须让她活起来<br> <a id="more"></a></p><h2 id="bug修复"><a href="#bug修复" class="headerlink" title="bug修复"></a>bug修复</h2><ol><li>看板娘没了，需查看。。</li><li>优化界面加载慢的问题</li><li>优化博客背景界面</li></ol>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt; 今天发现我的看板娘挂了，萌萌哒的看板娘没了，这可不能忍，必须让她活起来&lt;/p&gt;
-&lt;h2 id=&quot;bug修复&quot;&gt;&lt;a href=&quot;#bug修
-      
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt; 今天发现我的看板娘挂了，萌萌哒的看板娘没了，这可不能忍，必须让她活起来&lt;br&gt;
     
     </summary>
     
@@ -179,18 +161,21 @@
     <link href="http://yoursite.com/2018/07/26/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%BA%8C%E5%A4%A9/"/>
     <id>http://yoursite.com/2018/07/26/博客搭建第二天/</id>
     <published>2018-07-26T08:44:23.000Z</published>
-    <updated>2018-07-26T09:09:04.118Z</updated>
+    <updated>2018-08-07T07:18:50.968Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>  本次博客搭建做了很多针对性的修改，比如添加看板娘，添加Valine评论，添加DaoVoice等插件</p><hr><h2 id="已经优化点"><a href="#已经优化点" class="headerlink" title="已经优化点"></a>已经优化点</h2><ol><li>添加看板娘</li><li>添加Valine评论</li><li>添加DaoVoice聊天</li><li>添加左侧栏头像旋转效果</li><li>添加右上角fork me github</li><li>添加字数统计功能</li></ol><hr><h2 id="bug问题需要修复点"><a href="#bug问题需要修复点" class="headerlink" title="bug问题需要修复点"></a>bug问题需要修复点</h2><ol><li>页面有个undefined显示，需要修改</li><li>需要添加音乐按钮</li><li>优化动画效果，快速加载静态js，css资源</li></ol><hr>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>  本次博客搭建做了很多针对性的修改，比如添加看板娘，添加Valine评论，添加DaoVoice等插件</p><hr><h2 id="已经优化点"><a href="#已经优化点" class="headerlink" title="已经优化点"></a>已经优化点</h2><ol><li>添加看板娘</li><li>添加Valine评论</li><li>添加DaoVoice聊天</li><li>添加左侧栏头像旋转效果</li><li>添加右上角fork me github</li><li>添加字数统计功能<a id="more"></a></li></ol><hr><h2 id="bug问题需要修复点"><a href="#bug问题需要修复点" class="headerlink" title="bug问题需要修复点"></a>bug问题需要修复点</h2><ol><li>页面有个undefined显示，需要修改</li><li>需要添加音乐按钮</li><li>优化动画效果，快速加载静态js，css资源</li></ol><hr>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;  本次博客搭建做了很多针对性的修改，比如添加看板娘，添加Valine评论，添加DaoVoice等插件&lt;/p&gt;
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;  本次博客搭建做了很多针对性的修改，比如添加看板娘，添加Valine评论，添加DaoVoice等插件&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&quot;已
-      
+&lt;h2 id=&quot;已经优化点&quot;&gt;&lt;a href=&quot;#已经优化点&quot; class=&quot;headerlink&quot; title=&quot;已经优化点&quot;&gt;&lt;/a&gt;已经优化点&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;添加看板娘&lt;/li&gt;
+&lt;li&gt;添加Valine评论&lt;/li&gt;
+&lt;li&gt;添加DaoVoice聊天&lt;/li&gt;
+&lt;li&gt;添加左侧栏头像旋转效果&lt;/li&gt;
+&lt;li&gt;添加右上角fork me github&lt;/li&gt;
+&lt;li&gt;添加字数统计功能
     
     </summary>
     
@@ -206,16 +191,13 @@
     <link href="http://yoursite.com/2018/07/26/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
     <id>http://yoursite.com/2018/07/26/博客搭建第一天/</id>
     <published>2018-07-26T08:03:38.000Z</published>
-    <updated>2018-07-26T09:25:29.462Z</updated>
+    <updated>2018-08-07T07:18:50.972Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近在工作的时候，搭建Vue环境，发现了一个人<a href="https://inspurer.github.io/" target="_blank" rel="noopener">月小水长</a>的博客，特别喜欢这种风格，内心已经燃起了熊熊之火，于是一发不可收拾的开始搭建我的blog，一开始fork别人的博客，修改了很多自己的内容，然而发现有骨架没灵魂不是我的选择，于是开始了自己的搭建.</p><h2 id="搭建的准备工作"><a href="#搭建的准备工作" class="headerlink" title="搭建的准备工作"></a>搭建的准备工作</h2><hr><ol><li>npm环境</li><li>hexo</li><li>VS code</li><li>git</li></ol><hr><h2 id="搭建的问题汇总"><a href="#搭建的问题汇总" class="headerlink" title="搭建的问题汇总"></a>搭建的问题汇总</h2><ol><li>文字不是中文，需要修改站点_config.yml 文件中的language变量</li><li>主题可以有多种选择，当前主题为<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">next</a>，需要修改站点的_config.yml 的theme</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近在工作的时候，搭建Vue环境，发现了一个人<a href="https://inspurer.github.io/" target="_blank" rel="noopener">月小水长</a>的博客，特别喜欢这种风格，内心已经燃起了熊熊之火，于是一发不可收拾的开始搭建我的blog，一开始fork别人的博客，修改了很多自己的内容，然而发现有骨架没灵魂不是我的选择，于是开始了自己的搭建.<br><a id="more"></a></p><h2 id="搭建的准备工作"><a href="#搭建的准备工作" class="headerlink" title="搭建的准备工作"></a>搭建的准备工作</h2><hr><ol><li>npm环境</li><li>hexo</li><li>VS code</li><li>git</li></ol><hr><h2 id="搭建的问题汇总"><a href="#搭建的问题汇总" class="headerlink" title="搭建的问题汇总"></a>搭建的问题汇总</h2><ol><li>文字不是中文，需要修改站点_config.yml 文件中的language变量</li><li>主题可以有多种选择，当前主题为<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">next</a>，需要修改站点的_config.yml 的theme</li></ol>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;最近在工作的时候，搭建Vue环境，发现了一个人&lt;a href=&quot;https://inspurer.github.io/&quot; target=&quot;_
-      
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;最近在工作的时候，搭建Vue环境，发现了一个人&lt;a href=&quot;https://inspurer.github.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;月小水长&lt;/a&gt;的博客，特别喜欢这种风格，内心已经燃起了熊熊之火，于是一发不可收拾的开始搭建我的blog，一开始fork别人的博客，修改了很多自己的内容，然而发现有骨架没灵魂不是我的选择，于是开始了自己的搭建.&lt;br&gt;
     
     </summary>
     
