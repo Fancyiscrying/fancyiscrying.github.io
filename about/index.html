@@ -38,6 +38,16 @@
   <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-flash.min.css" rel="stylesheet">
 
 
+<script>
+    (function(){
+        if(''){
+            if (prompt('主人文章加密了，请输入文章密码') !== ''){
+                alert('哎呀，密码错误啦！');
+                history.back();
+            }
+        }
+    })();
+</script>
 
 
 
@@ -619,7 +629,7 @@
 
 
 <div class="theme-info">
-  <span class="post-count">Total Words:2.0k</span>
+  <span class="post-count">累积码字数:2.0k</span>
 </div>
 
         
@@ -665,12 +675,11 @@
 
 
 
-
-
-
-
   
-  
+
+
+
+
 
 
 
@@ -697,12 +706,7 @@
 
   
   
-    <script type="text/javascript" src="/lib/three/three.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/canvas_lines.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
   
 
 
