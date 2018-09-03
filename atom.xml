@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.fancyiscrying.top/"/>
-  <updated>2018-08-24T06:50:05.256Z</updated>
+  <updated>2018-09-03T03:38:18.992Z</updated>
   <id>http://www.fancyiscrying.top/</id>
   
   <author>
@@ -17,21 +17,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Spring-MVC-环境切换</title>
+    <link href="http://www.fancyiscrying.top/2018/09/03/Spring-MVC-%E7%8E%AF%E5%A2%83%E5%88%87%E6%8D%A2/"/>
+    <id>http://www.fancyiscrying.top/2018/09/03/Spring-MVC-环境切换/</id>
+    <published>2018-09-03T03:26:31.000Z</published>
+    <updated>2018-09-03T03:38:18.992Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>开发的系统往往存在多个环境的切换，生产环境，开发环境，测试环境等，公用一个配置文件导致生产部署的时候需要修改配置<br>非常的麻烦，但是spring 提供了对多个环境的切换。</p><a id="more"></a><h2 id="实现"><a href="#实现" class="headerlink" title="实现"></a>实现</h2><p>在spring-mvc.xml中配置多个环境配置文件的路径，profile 等于各个环境的简写，location为配置文件的位置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&lt;!-- 开发环境配置文件 by zhangfei --&gt;</span><br><span class="line">&lt;beans profile=&quot;dev&quot;&gt;</span><br><span class="line">&lt;context:property-placeholder</span><br><span class="line">location=&quot;classpath:/setting/dev-setting.properties&quot; /&gt;</span><br><span class="line">&lt;/beans&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- 测试环境配置文件 by zhangfei --&gt;</span><br><span class="line">&lt;beans profile=&quot;test&quot;&gt;</span><br><span class="line">&lt;context:property-placeholder</span><br><span class="line">location=&quot;classpath:/setting/test-setting.properties&quot; /&gt;</span><br><span class="line">&lt;/beans&gt;</span><br><span class="line">&lt;!-- 生产环境配置文件 by zhangfei --&gt;</span><br><span class="line">&lt;beans profile=&quot;production&quot;&gt;</span><br><span class="line">&lt;context:property-placeholder</span><br><span class="line">location=&quot;classpath:/setting/product-setting.properties&quot; /&gt;</span><br><span class="line">&lt;/beans&gt;</span><br></pre></td></tr></table></figure></p><h3 id="实现方式"><a href="#实现方式" class="headerlink" title="实现方式"></a>实现方式</h3><p>JVM参数方式</p><p> tomcat 中 catalina.bat（.sh中不用“set”） 添加JAVA_OPS。通过设置active选择不同配置文件<br>VM参数方式:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">set JAVA_OPTS=&quot;-Dspring.profiles.active=test&quot;</span><br></pre></td></tr></table></figure><p>eclipse 中启动tomcat。项目右键 run as –&gt; run configuration–&gt;Arguments–&gt; VM arguments中添加。local配置文件不必上传git追踪管理<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-Dspring.profiles.active=&quot;local&quot;</span><br></pre></td></tr></table></figure></p><p>web.xml方式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;init-param&gt;</span><br><span class="line">&lt;param-name&gt;spring.profiles.active&lt;/param-name&gt;</span><br><span class="line">&lt;param-value&gt;production&lt;/param-value&gt;</span><br><span class="line">&lt;/init-param&gt;</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;开发的系统往往存在多个环境的切换，生产环境，开发环境，测试环境等，公用一个配置文件导致生产部署的时候需要修改配置&lt;br&gt;非常的麻烦，但是spring 提供了对多个环境的切换。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="spring,spring mvc" scheme="http://www.fancyiscrying.top/categories/spring-spring-mvc/"/>
+    
+    
+      <category term="spring mvc" scheme="http://www.fancyiscrying.top/tags/spring-mvc/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2018-8-24-生活日常</title>
     <link href="http://www.fancyiscrying.top/2018/08/24/2018-8-24-%E7%94%9F%E6%B4%BB%E6%97%A5%E5%B8%B8/"/>
     <id>http://www.fancyiscrying.top/2018/08/24/2018-8-24-生活日常/</id>
     <published>2018-08-24T06:23:03.000Z</published>
-    <updated>2018-08-24T06:50:05.256Z</updated>
+    <updated>2018-08-28T05:56:52.047Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>昨天晚上下班回家，跟小梅梅又闹了些不愉快，心里很是心疼她，淋了雨，脚又疼的。</p><h2 id="下雨前夕"><a href="#下雨前夕" class="headerlink" title="下雨前夕"></a>下雨前夕</h2><p>好像生活就是些小事围绕着，一点点的生活凑成了一个舞台剧，讲起事情的经过，我尽然想不起些什么了。</p><p>我只知道在门口等她，谈论着去哪里买杯子来着，然后路上讲了买车的事情，然后就没有然后了。一会的不开心，立马写在脸上。</p><p>好像越是冷静，越是容易刺激，满嘴的狠话，一把把的刀子直插心，刀子嘴的女人，豆腐心，好像我只会把事情搞的越来越大，收不住厂，马路上的追逐，吼叫，好像是我们处理问题的最佳解决方式。我为什么要气你呢，这样真的是我所想所愿意的吗。</p><h2 id="下雨中"><a href="#下雨中" class="headerlink" title="下雨中"></a>下雨中</h2><p>你叫我走，我心里一万个不愿意，我想陪着你，哪怕送到门口，就是我的奢望，但是我不走，你也原地不动，看着雷闪电鸣，我真的是不愿意让你一直呆在马路边</p><p>终于刷刷的雨下了，你没有撑伞，就这样一步一步，我好像心里也在一点一点滴血，我真的心疼了。为什么就不能控制自己说话，自己不好好想想为什么就气了你，你这样，我真的很好受吗</p><p>还是一样的煎熬着，看不到你，我就疯狂的跑了过去，你肩膀都湿透了，凉凉的，凉在我的心里，我好心疼啊。。</p><h2 id="雨后"><a href="#雨后" class="headerlink" title="雨后"></a>雨后</h2><p>一步步的回家路，漫长又有期待，我愿意和你一起，虽然我们都有缺陷，但我们以后绝对是最幸福的一对。。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>昨天晚上下班回家，跟小梅梅又闹了些不愉快，心里很是心疼她，淋了雨，脚又疼的。</p><h2 id="下雨前夕"><a href="#下雨前夕" class="headerlink" title="下雨前夕"></a>下雨前夕</h2><p>好像生活就是些小事围绕着，一点点的生活凑成了一个舞台剧，讲起事情的经过，我尽然想不起些什么了。</p><p>我只知道在门口等她，谈论着去哪里买杯子来着，然后路上讲了买车的事情，然后就没有然后了。一会的不开心，立马写在脸上。<br><a id="more"></a></p><p>好像越是冷静，越是容易刺激，满嘴的狠话，一把把的刀子直插心，刀子嘴的女人，豆腐心，好像我只会把事情搞的越来越大，收不住厂，马路上的追逐，吼叫，好像是我们处理问题的最佳解决方式。我为什么要气你呢，这样真的是我所想所愿意的吗。</p><h2 id="下雨中"><a href="#下雨中" class="headerlink" title="下雨中"></a>下雨中</h2><p>你叫我走，我心里一万个不愿意，我想陪着你，哪怕送到门口，就是我的奢望，但是我不走，你也原地不动，看着雷闪电鸣，我真的是不愿意让你一直呆在马路边</p><p>终于刷刷的雨下了，你没有撑伞，就这样一步一步，我好像心里也在一点一点滴血，我真的心疼了。为什么就不能控制自己说话，自己不好好想想为什么就气了你，你这样，我真的很好受吗</p><p>还是一样的煎熬着，看不到你，我就疯狂的跑了过去，你肩膀都湿透了，凉凉的，凉在我的心里，我好心疼啊。。</p><h2 id="雨后"><a href="#雨后" class="headerlink" title="雨后"></a>雨后</h2><p>一步步的回家路，漫长又有期待，我愿意和你一起，虽然我们都有缺陷，但我们以后绝对是最幸福的一对。。</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;昨天晚上下班回家，跟小梅梅又闹了些不愉快，心里很是心疼她，淋了雨，脚又疼的。&lt;/p&gt;
-&lt;h2 id=&quot;下雨前夕&quot;&gt;&lt;a href=&quot;#下雨前
-      
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;昨天晚上下班回家，跟小梅梅又闹了些不愉快，心里很是心疼她，淋了雨，脚又疼的。&lt;/p&gt;
+&lt;h2 id=&quot;下雨前夕&quot;&gt;&lt;a href=&quot;#下雨前夕&quot; class=&quot;headerlink&quot; title=&quot;下雨前夕&quot;&gt;&lt;/a&gt;下雨前夕&lt;/h2&gt;&lt;p&gt;好像生活就是些小事围绕着，一点点的生活凑成了一个舞台剧，讲起事情的经过，我尽然想不起些什么了。&lt;/p&gt;
+&lt;p&gt;我只知道在门口等她，谈论着去哪里买杯子来着，然后路上讲了买车的事情，然后就没有然后了。一会的不开心，立马写在脸上。&lt;br&gt;
     
     </summary>
     
