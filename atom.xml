@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.fancyiscrying.top/"/>
-  <updated>2018-09-03T03:38:18.992Z</updated>
+  <updated>2018-09-05T08:06:41.405Z</updated>
   <id>http://www.fancyiscrying.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>工作日常第二天</title>
+    <link href="http://www.fancyiscrying.top/2018/09/05/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%B8%B8%E7%AC%AC%E4%BA%8C%E5%A4%A9/"/>
+    <id>http://www.fancyiscrying.top/2018/09/05/工作日常第二天/</id>
+    <published>2018-09-05T05:57:40.000Z</published>
+    <updated>2018-09-05T08:06:41.405Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>今天天气有点燥热，中午午睡的时候都没有休息好，下午又要开会，今天好像汇报的公司就有三家，我的天，现在想想还是真的挺多事情的，需求又来了。</p><h2 id="良好的质疑"><a href="#良好的质疑" class="headerlink" title="良好的质疑"></a>良好的质疑</h2><p>当供应商在推销他的产品时，他必须知道自己产品的优点以及缺点在哪里，如何适应招标方的需求，审时度势的理解招标方的核心需求点。这次这些老大提出的核心点都是当前系统存在的痛点及其核心需要关注的东西，这个系统是服务于后台运维，也是服务于基于保障，请求的服务，所以必须了解核心的场景问题，及时解决沟通，并有技术层面解决这个核心问题。<br><a id="more"></a></p><h2 id="千人千面的概念"><a href="#千人千面的概念" class="headerlink" title="千人千面的概念"></a>千人千面的概念</h2><p>第一次提出来这个概念的时候，我是有点懵逼的，但是结合目前的情况来讲，确实目前的系统需要这样处理，针对人员，职责的区别，每个人看到的界面，所操作的事是可能不同的，那么我们就需要针对这些差异做出些改变，那么简洁性是很好的，操作性也是可以保证的，每个人都赋予了不同的权限</p><h2 id="产品的改造，产品的升级"><a href="#产品的改造，产品的升级" class="headerlink" title="产品的改造，产品的升级"></a>产品的改造，产品的升级</h2><p>包壳子的功夫不仅仅在于在之前的系统上做个美装，还需要再当前的基础上添加新的功能以及新的逻辑，让用户更加方便解决的去使用这个系统。产品的改造升级，是一种对当前业务的扩展，是一种去耦合，业务横向扩展的层面，所以产品良好的体验度，实用度才是最后检验合格的标准。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;今天天气有点燥热，中午午睡的时候都没有休息好，下午又要开会，今天好像汇报的公司就有三家，我的天，现在想想还是真的挺多事情的，需求又来了。&lt;/p&gt;
+&lt;h2 id=&quot;良好的质疑&quot;&gt;&lt;a href=&quot;#良好的质疑&quot; class=&quot;headerlink&quot; title=&quot;良好的质疑&quot;&gt;&lt;/a&gt;良好的质疑&lt;/h2&gt;&lt;p&gt;当供应商在推销他的产品时，他必须知道自己产品的优点以及缺点在哪里，如何适应招标方的需求，审时度势的理解招标方的核心需求点。这次这些老大提出的核心点都是当前系统存在的痛点及其核心需要关注的东西，这个系统是服务于后台运维，也是服务于基于保障，请求的服务，所以必须了解核心的场景问题，及时解决沟通，并有技术层面解决这个核心问题。&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Spring-MVC-环境切换</title>
